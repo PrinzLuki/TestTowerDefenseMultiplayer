@@ -1,0 +1,13 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-MultiplayerBlueprintLobby.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\tomi\Documents\Unreal Projects\TestTowerDefenseMultiplayer\MultiplayerBlueprintLobby\Intermediate\Build\Win64\MultiplayerBlueprintLobbyEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h.obj"
+"C:\Users\tomi\Documents\Unreal Projects\TestTowerDefenseMultiplayer\MultiplayerBlueprintLobby\Intermediate\Build\Win64\UnrealEditor\Development\MultiplayerBlueprintLobby\MultiplayerBlueprintLobby.cpp.obj"
+"C:\Users\tomi\Documents\Unreal Projects\TestTowerDefenseMultiplayer\MultiplayerBlueprintLobby\Intermediate\Build\Win64\UnrealEditor\Development\MultiplayerBlueprintLobby\MyClass.cpp.obj"
+"C:\Users\tomi\Documents\Unreal Projects\TestTowerDefenseMultiplayer\MultiplayerBlueprintLobby\Intermediate\Build\Win64\UnrealEditor\Development\MultiplayerBlueprintLobby\Default.rc2.res"
+/OUT:"C:\Users\tomi\Documents\Unreal Projects\TestTowerDefenseMultiplayer\MultiplayerBlueprintLobby\Intermediate\Build\Win64\UnrealEditor\Development\MultiplayerBlueprintLobby\UnrealEditor-MultiplayerBlueprintLobby.lib"

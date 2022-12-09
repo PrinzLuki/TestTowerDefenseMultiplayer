@@ -1,0 +1,10 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\tomi\\Documents\\Unreal Projects\\TestTowerDefenseMultiplayer\\MultiplayerBlueprintLobby\\Source\\MultiplayerBlueprintLobby\\MultiplayerBlueprintLobby.Build.cs",
+		"C:\\Users\\tomi\\Documents\\Unreal Projects\\TestTowerDefenseMultiplayer\\MultiplayerBlueprintLobby\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\AdvancedSessions.Build.cs",
+		"C:\\Users\\tomi\\Documents\\Unreal Projects\\TestTowerDefenseMultiplayer\\MultiplayerBlueprintLobby\\Plugins\\AdvancedSteamSessions\\Source\\AdvancedSteamSessions\\AdvancedSteamSessions.Build.cs",
+		"C:\\Users\\tomi\\Documents\\Unreal Projects\\TestTowerDefenseMultiplayer\\MultiplayerBlueprintLobby\\Source\\MultiplayerBlueprintLobby.Target.cs",
+		"C:\\Users\\tomi\\Documents\\Unreal Projects\\TestTowerDefenseMultiplayer\\MultiplayerBlueprintLobby\\Source\\MultiplayerBlueprintLobbyEditor.Target.cs"
+	],
+	"EngineVersion": "5.1.0"
+}

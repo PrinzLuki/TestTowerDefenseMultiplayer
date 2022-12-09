@@ -1,0 +1,13 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/tomi/Documents/Unreal Projects/TestTowerDefenseMultiplayer/MultiplayerBlueprintLobby/Content/MBLS/Widgets/MainMenu/WB_HostGameMenu.uasset",
+				"C:/Users/tomi/Documents/Unreal Projects/TestTowerDefenseMultiplayer/MultiplayerBlueprintLobby/Content/MBLS/Widgets/MainMenu/WB_ServerBrowserMenu.uasset"
+			]
+		}
+	]
+}

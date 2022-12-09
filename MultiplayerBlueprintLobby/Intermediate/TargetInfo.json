@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "MultiplayerBlueprintLobby",
+			"Path": "C:\\Users\\tomi\\Documents\\Unreal Projects\\TestTowerDefenseMultiplayer\\MultiplayerBlueprintLobby\\Source\\MultiplayerBlueprintLobby.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "MultiplayerBlueprintLobbyEditor",
+			"Path": "C:\\Users\\tomi\\Documents\\Unreal Projects\\TestTowerDefenseMultiplayer\\MultiplayerBlueprintLobby\\Source\\MultiplayerBlueprintLobbyEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

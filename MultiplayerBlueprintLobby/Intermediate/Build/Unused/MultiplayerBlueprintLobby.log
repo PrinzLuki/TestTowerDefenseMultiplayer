@@ -1,0 +1,47 @@
+﻿  Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" MultiplayerBlueprintLobbyEditor Win64 Development -Project="C:\Users\tomi\Documents\Unreal Projects\TestTowerDefenseMultiplayer\MultiplayerBlueprintLobby\MultiplayerBlueprintLobby.uproject" -WaitMutex -FromMsBuild
+  Log file: C:\Users\tomi\AppData\Local\UnrealBuildTool\Log.txt
+  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\tomi\Documents\Unreal Projects\TestTowerDefenseMultiplayer).
+  Creating makefile for MultiplayerBlueprintLobbyEditor (no existing makefile)
+  DEPRECATION: 'IniKeyBlacklist', which is a config key in section [/Script/UnrealEd.ProjectPackagingSettings], in 'C:\Users\tomi\Documents\Unreal Projects\TestTowerDefenseMultiplayer\MultiplayerBlueprintLobby\Config\DefaultGame.ini', has been deprecated. Using 'IniKeyDenylist' instead. It is recommended you update your .ini files as soon as possible, and replace IniKeyBlacklist with IniKeyDenylist
+  DEPRECATION: 'IniSectionBlacklist', which is a config key in section [/Script/UnrealEd.ProjectPackagingSettings], in 'C:\Users\tomi\Documents\Unreal Projects\TestTowerDefenseMultiplayer\MultiplayerBlueprintLobby\Config\DefaultGame.ini', has been deprecated. Using 'IniSectionDenylist' instead. It is recommended you update your .ini files as soon as possible, and replace IniSectionBlacklist with IniSectionDenylist
+  Parsing headers for MultiplayerBlueprintLobbyEditor
+    Running Internal UnrealHeaderTool "C:\Users\tomi\Documents\Unreal Projects\TestTowerDefenseMultiplayer\MultiplayerBlueprintLobby\MultiplayerBlueprintLobby.uproject" "C:\Users\tomi\Documents\Unreal Projects\TestTowerDefenseMultiplayer\MultiplayerBlueprintLobby\Intermediate\Build\Win64\MultiplayerBlueprintLobbyEditor\Development\MultiplayerBlueprintLobbyEditor.uhtmanifest" -WarningsAsErrors -installed
+  Total of 56 written
+  Reflection code generated for MultiplayerBlueprintLobbyEditor in 2.194245 seconds
+  Building MultiplayerBlueprintLobbyEditor...
+  Using Visual Studio 2019 14.29.30145 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  [Upgrade]
+  [Upgrade] Using backward-compatible include order. The latest version of UE has changed the order of includes, which may require code changes. The current setting is:
+  [Upgrade]     IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_0
+  [Upgrade] Suppress this message by setting 'IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_1;' in MultiplayerBlueprintLobbyEditor.Target.cs.
+  [Upgrade] Alternatively you can set this to 'EngineIncludeOrderVersion.Latest' to always use the latest include order. This will potentially cause compile errors when integrating new versions of the engine.
+  [Upgrade]
+  Determining max actions to execute in parallel (6 physical cores, 12 logical cores)
+    Executing up to 6 processes, one per physical core
+    Requested 1.5 GB free memory per action, 3 GB available: limiting max parallel actions to 1
+  Building 17 actions with 1 process...
+  [1/17] Compile SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.cpp
+  [2/17] Resource Default.rc2
+  [3/17] Resource Default.rc2
+  [4/17] Resource Default.rc2
+  [5/17] Compile Module.AdvancedSessions.1_of_3.cpp
+  [6/17] Compile Module.AdvancedSessions.2_of_3.cpp
+  [7/17] Compile Module.AdvancedSessions.3_of_3.cpp
+  [8/17] Compile Module.AdvancedSteamSessions.cpp
+  [9/17] Compile MultiplayerBlueprintLobby.cpp
+  [10/17] Compile MyClass.cpp
+  [11/17] Link UnrealEditor-AdvancedSessions.lib
+     Bibliothek "C:\Users\tomi\Documents\Unreal Projects\TestTowerDefenseMultiplayer\MultiplayerBlueprintLobby\Plugins\AdvancedSessions\Intermediate\Build\Win64\UnrealEditor\Development\AdvancedSessions\UnrealEditor-AdvancedSessions.lib" und Objekt "C:\Users\tomi\Documents\Unreal Projects\TestTowerDefenseMultiplayer\MultiplayerBlueprintLobby\Plugins\AdvancedSessions\Intermediate\Build\Win64\UnrealEditor\Development\AdvancedSessions\UnrealEditor-AdvancedSessions.exp" werden erstellt.
+  [12/17] Link UnrealEditor-AdvancedSessions.dll
+     Bibliothek "C:\Users\tomi\Documents\Unreal Projects\TestTowerDefenseMultiplayer\MultiplayerBlueprintLobby\Plugins\AdvancedSessions\Intermediate\Build\Win64\UnrealEditor\Development\AdvancedSessions\UnrealEditor-AdvancedSessions.suppressed.lib" und Objekt "C:\Users\tomi\Documents\Unreal Projects\TestTowerDefenseMultiplayer\MultiplayerBlueprintLobby\Plugins\AdvancedSessions\Intermediate\Build\Win64\UnrealEditor\Development\AdvancedSessions\UnrealEditor-AdvancedSessions.suppressed.exp" werden erstellt.
+  [13/17] Link UnrealEditor-AdvancedSteamSessions.lib
+     Bibliothek "C:\Users\tomi\Documents\Unreal Projects\TestTowerDefenseMultiplayer\MultiplayerBlueprintLobby\Plugins\AdvancedSteamSessions\Intermediate\Build\Win64\UnrealEditor\Development\AdvancedSteamSessions\UnrealEditor-AdvancedSteamSessions.lib" und Objekt "C:\Users\tomi\Documents\Unreal Projects\TestTowerDefenseMultiplayer\MultiplayerBlueprintLobby\Plugins\AdvancedSteamSessions\Intermediate\Build\Win64\UnrealEditor\Development\AdvancedSteamSessions\UnrealEditor-AdvancedSteamSessions.exp" werden erstellt.
+  [14/17] Link UnrealEditor-MultiplayerBlueprintLobby.dll
+     Bibliothek "C:\Users\tomi\Documents\Unreal Projects\TestTowerDefenseMultiplayer\MultiplayerBlueprintLobby\Intermediate\Build\Win64\UnrealEditor\Development\MultiplayerBlueprintLobby\UnrealEditor-MultiplayerBlueprintLobby.suppressed.lib" und Objekt "C:\Users\tomi\Documents\Unreal Projects\TestTowerDefenseMultiplayer\MultiplayerBlueprintLobby\Intermediate\Build\Win64\UnrealEditor\Development\MultiplayerBlueprintLobby\UnrealEditor-MultiplayerBlueprintLobby.suppressed.exp" werden erstellt.
+  [15/17] Link UnrealEditor-MultiplayerBlueprintLobby.lib
+     Bibliothek "C:\Users\tomi\Documents\Unreal Projects\TestTowerDefenseMultiplayer\MultiplayerBlueprintLobby\Intermediate\Build\Win64\UnrealEditor\Development\MultiplayerBlueprintLobby\UnrealEditor-MultiplayerBlueprintLobby.lib" und Objekt "C:\Users\tomi\Documents\Unreal Projects\TestTowerDefenseMultiplayer\MultiplayerBlueprintLobby\Intermediate\Build\Win64\UnrealEditor\Development\MultiplayerBlueprintLobby\UnrealEditor-MultiplayerBlueprintLobby.exp" werden erstellt.
+  [16/17] Link UnrealEditor-AdvancedSteamSessions.dll
+     Bibliothek "C:\Users\tomi\Documents\Unreal Projects\TestTowerDefenseMultiplayer\MultiplayerBlueprintLobby\Plugins\AdvancedSteamSessions\Intermediate\Build\Win64\UnrealEditor\Development\AdvancedSteamSessions\UnrealEditor-AdvancedSteamSessions.suppressed.lib" und Objekt "C:\Users\tomi\Documents\Unreal Projects\TestTowerDefenseMultiplayer\MultiplayerBlueprintLobby\Plugins\AdvancedSteamSessions\Intermediate\Build\Win64\UnrealEditor\Development\AdvancedSteamSessions\UnrealEditor-AdvancedSteamSessions.suppressed.exp" werden erstellt.
+  [17/17] WriteMetadata MultiplayerBlueprintLobbyEditor.target
+  Total time in Parallel executor: 253.27 seconds
+  Total execution time: 283.70 seconds
